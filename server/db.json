@@ -1,0 +1,36 @@
+{
+    "pokemons": [
+        {
+            "name": "Pikachu",
+            "level": 1
+        },
+        {
+            "name": "Golbat",
+            "level": 2
+        },
+        {
+            "name": "Ekans",
+            "level": 1
+        },
+        {
+            "name": "Ivysaur",
+            "level": 2
+        },
+        {
+            "name": "Caterpie",
+            "level": 1
+        },
+        {
+            "name": "Charmander",
+            "level": 1
+        },
+        {
+            "name": "Raichu",
+            "level": 2
+        },
+        {
+            "name": "Beedrill",
+            "level": 2
+        }
+    ]
+}

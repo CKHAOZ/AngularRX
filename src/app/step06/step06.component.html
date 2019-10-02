@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="pokemons-level-one">
+        <ul>
+            <li class="pokemon" *ngFor="let pokemon of pokemonsOneLevel$ | async">
+                {{ pokemon.name }}
+                <img src="./assets/{{ pokemon.name }}.jpg">
+            </li>
+        </ul>
+    </div>
+    <div class="pokemons-level-two">
+        <ul>
+            <li class="pokemon" *ngFor="let pokemon of pokemonsTwoLevel$ | async">
+                {{ pokemon.name }}
+                <img src="./assets/{{ pokemon.name }}.jpg">
+            </li>
+        </ul>
+    </div>
+</div>
